@@ -23,6 +23,8 @@
         </tr>
         <tr>
           <td>
+            <gm:html ref="atom:link"/>
+Test
             <gm:link ref="www.google.com" label="Google"/>
             <gm:link ref="http://www.nuponuq.com/table/forum/index.php?action=post&amp;forumid=4&amp;url=data:post.url&amp;title=data:post.titletarget=_blank" label="Post comment to forum"/>
           </td>
@@ -34,6 +36,7 @@
 </gm:page>
 
  
+
 
 
 
