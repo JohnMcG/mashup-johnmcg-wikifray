@@ -17,7 +17,7 @@
           <td>
             <b><gm:text ref="atom:title"/>
             <span style="color:#3366cc">
-              <gm:link ref=http://www.nuponuq.com/table/forum/index.php?action=post&amp;forumid=4&amp;url=data:post.url&amp;title=data:post.titletarget=_blank" label="Post comment to forum"/>
+              <gm:link ref="http://www.nuponuq.com/table/forum/index.php?action=post&amp;forumid=4&amp;url=data:post.url&amp;title=data:post.titletarget=_blank" label="Post comment to forum"/>
             </span></b>
           </td>
         </tr>
@@ -31,6 +31,7 @@
 </gm:page>
 
  
+
 
 
 
