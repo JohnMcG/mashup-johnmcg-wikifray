@@ -17,7 +17,7 @@
           <td>
             <b><gm:text ref="atom:title"/>
             <span style="color:#3366cc">
-              <gm:expr ref='"http://www.nuponuq.com/table/forum/index.php?action=post&amp;forumid=4&amp;url=" + data:post.url + "&amp;title=" + data:post.title' target='_blank' Comment
+              <gm:expr='"http://www.nuponuq.com/table/forum/index.php?action=post&amp;forumid=4&amp;url=" + data:post.url + "&amp;title=" + data:post.title' target='_blank' Comment
             </span></b>
           </td>
         </tr>
@@ -31,5 +31,6 @@
 </gm:page>
 
  
+
 
 
