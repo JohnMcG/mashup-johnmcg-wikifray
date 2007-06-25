@@ -1,4 +1,13 @@
-             <script type="text/javascript">
+   
+    <gm:page title="RSS Feed">
+
+  <!--
+    The RSS Feed application demonstrates displaying a external RSS feed
+    and a few of the feeds custom elements
+    @author: GME Team
+  -->
+
+            <script type="text/javascript">
                function addCommentURL(strPostURL, strPostTitle)
                {
                  document.write('Hello');
@@ -10,15 +19,6 @@
                  -->
                }
              </script>            
-  
-    <gm:page title="RSS Feed">
-
-  <!--
-    The RSS Feed application demonstrates displaying a external RSS feed
-    and a few of the feeds custom elements
-    @author: GME Team
-  -->
-
 
   <gm:list id="myList" template="diggItems"
            data=http://www.feedbite.com/xml/?427/20 pagesize="10"/>
