@@ -11,7 +11,7 @@
                function addCommentURL(strPostURL, strPostTitle)
                {
                  var strReturn="http://www.nuponuq.com/table/forum/index.php?action=post&amp;forumid=4&amp;url=" + strPostURL + "&amp;title=" + strPostTitle + "target=_blank";
-                 var outString = "&lt;a href=\"" + strReturn + "\"&gt; Post a comment &lt;/a&gt;";
+                 var outString = "<a href=\"" + strReturn + "\> Post a comment </a>";
                  document.write(outString);
                }
              </script>            
