@@ -20,7 +20,7 @@
                  document.write('HIIII');
 
                }
-              addCommentURL('http://www.google.com"','Google');
+              addCommentURL("http://www.google.com", "Google");
              </script>            
 
   
@@ -40,9 +40,11 @@
         </tr>
         <tr>
           <td>
+            Test1
             <script>
-              addCommentURL("http://www.google.com", "Google");
+              document.write('Test2');
             </script>
+            Test3
           </td>
         </tr>
       </tbody>
