@@ -17,6 +17,7 @@
                }
              </script>            
 
+  
   <gm:list id="myList" template="diggItems"
            data=http://www.feedbite.com/xml/?427/20 pagesize="10"/>
 
@@ -34,7 +35,7 @@
         <tr>
           <td>
             <script type='text/javascript'>
-              addCommentURL("google.com", "Google");
+              addCommentURL("http://www.google.com", "Google");
             </script>
           </td>
         </tr>
