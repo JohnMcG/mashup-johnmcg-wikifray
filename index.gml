@@ -1,4 +1,5 @@
-<gm:page title="RSS Feed">
+  
+    <gm:page title="RSS Feed">
 
   <!--
     The RSS Feed application demonstrates displaying a external RSS feed
@@ -23,12 +24,11 @@
         </tr>
         <tr>
           <td>
-            <a href="http://google.com">Google</a>
-            <!--
-            <a expr:href='"http://www.nuponuq.com/table/forum/index.php?action=post&amp;forumid=4&amp;url=" + data:post.url + "&amp;title=" + data:post.title' target='_blank'>Post comment to forum</a>.            
-            <gm:data id="comment_url" data="http://www.nuponuq.com/table/forum/index.php?action=post&amp;forumid=4&amp;url=data:post.url&amp;title=data:post.titletarget=_blank"/>
-            <gm:link ref="${comment_url}" label="Post comment to forum"/>
-            -->
+             <script type="text/javascript">
+               var strReturn ="http://www.nuponuq.com/table/forum/index.php?action=post&amp;forumid=4&amp;url=" + atom.link + "&amp;title=" + atom.title + "target=_blank";
+               document.write("&lt;a href=\""" + strReturn + "\"&gt; Post a comment </a>");
+             </script>&nbsp;
+            
           </td>
         </tr>
       </tbody>
