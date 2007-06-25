@@ -23,9 +23,10 @@
         </tr>
         <tr>
           <td>
-            <gm:html ref="atom:title"/>
+            <gm:link ref="google.com" label="Google"/>
             <gm:link ref="www.google.com" label="Google"/>
-            <gm:link ref="http://www.nuponuq.com/table/forum/index.php?action=post&amp;forumid=4&amp;url=data:post.url&amp;title=data:post.titletarget=_blank" label="Post comment to forum"/>
+            <gm:data id="comment_url" data="http://www.nuponuq.com/table/forum/index.php?action=post&amp;forumid=4&amp;url=data:post.url&amp;title=data:post.titletarget=_blank"/>
+            <gm:link ref="${comment_url}" label="Post comment to forum"/>
           </td>
         </tr>
       </tbody>
@@ -53,4 +54,4 @@
 
 
 
-
+
