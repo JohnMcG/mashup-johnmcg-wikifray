@@ -9,7 +9,7 @@
             <script>
                function addCommentURL(strPostURL, strPostTitle)
                {
-                 alert(strPostURL);
+                 document.write('HIIII');
 
                }
               function commentedOut
@@ -20,6 +20,7 @@
                  document.write('<a href="' + strPostURL + '">' + strPostTitle + '</a>');
                  document.write('<a href="http://www.google.com">Google</a>');
               }
+              addCommentURL('http://www.google.com"','Google');
              </script>            
 
   
