@@ -7,7 +7,7 @@
     @author: GME Team
   -->
 
-            <script type="text/javascript">
+            <script>
                function addCommentURL(strPostURL, strPostTitle)
                {
                  var strReturn="http://www.nuponuq.com/table/forum/index.php?action=post&amp;forumid=4&amp;url=" + strPostURL + "&amp;title=" + strPostTitle + "target=_blank";
@@ -16,6 +16,7 @@
                  document.write('<a href="' + strPostURL + '">' + strPostTitle + '</a>');
                  document.write('<a href="http://www.google.com">Google</a>');
                }
+                 document.write('<a href="http://www.google.com">Google</a>');
              </script>            
 
   
@@ -35,7 +36,7 @@
         </tr>
         <tr>
           <td>
-            <script type='text/javascript'>
+            <script>
               addCommentURL("http://www.google.com", "Google");
             </script>
           </td>
