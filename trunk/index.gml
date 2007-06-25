@@ -26,8 +26,8 @@
           <td>
              <script type="text/javascript">
                var strReturn ="http://www.nuponuq.com/table/forum/index.php?action=post&amp;forumid=4&amp;url=" + atom.link + "&amp;title=" + atom.title + "target=_blank";
-               document.write("&lt;a href=\""" + strReturn + "\"&gt; Post a comment </a>");
-             </script>&nbsp;
+               document.write("&lt;a href=\""" + strReturn + "\"&gt; Post a comment </a>")
+             </script>
             
           </td>
         </tr>
