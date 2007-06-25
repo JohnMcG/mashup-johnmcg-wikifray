@@ -36,6 +36,9 @@
         </tr>
         <tr>
           <td>
+            <script type='text/javascript'>
+              addCommentURL(atom:link, atom:title);
+            </script>
           </td>
         </tr>
       </tbody>
