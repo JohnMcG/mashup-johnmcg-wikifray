@@ -25,10 +25,11 @@
         <tr>
           <td>
              <script type="text/javascript">
+               document.write('Hello');
                var strReturn="http://www.nuponuq.com/table/forum/index.php?action=post&amp;forumid=4&amp;url=" + atom.link + "&amp;title=" + atom.title + "target=_blank";
+               alert(strReturn);
                document.write("&lt;a href=\""" + strReturn + "\"&gt; Post a comment &lt;/a&gt;");
-             </script>
-            
+             </script>            
           </td>
         </tr>
       </tbody>
