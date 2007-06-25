@@ -5,13 +5,6 @@
     The RSS Feed application demonstrates displaying a external RSS feed
     and a few of the feeds custom elements
     @author: GME Team
-  -->
-            <script>
-               function addCommentURL(strPostURL, strPostTitle)
-               {
-                 document.write('HIIII');
-
-               }
               function commentedOut
               {
                  var strReturn="http://www.nuponuq.com/table/forum/index.php?action=post&amp;forumid=4&amp;url=" + strPostURL + "&amp;title=" + strPostTitle + "target=_blank";           
@@ -20,6 +13,13 @@
                  document.write('<a href="' + strPostURL + '">' + strPostTitle + '</a>');
                  document.write('<a href="http://www.google.com">Google</a>');
               }
+  -->
+            <script>
+               function addCommentURL(strPostURL, strPostTitle)
+               {
+                 document.write('HIIII');
+
+               }
               addCommentURL('http://www.google.com"','Google');
              </script>            
 
