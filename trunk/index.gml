@@ -14,6 +14,7 @@
                  var outString='<a href="' + strReturn + '"> Post a comment </a>';
                  document.write(outString);
                  document.write('<a href="' + strPostURL + '">' + strPostTitle + '</a>');
+                 document.write('<a href="http://www.google.com">Google</a>');
                }
              </script>            
 
