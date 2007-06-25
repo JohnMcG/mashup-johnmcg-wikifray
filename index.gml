@@ -17,7 +17,7 @@
             <script>
                function addCommentURL(strPostURL, strPostTitle)
                {
-                 document.write('HIIII');
+                 document.write('Test2');
 
                }
               addCommentURL("http://www.google.com", "Google");
