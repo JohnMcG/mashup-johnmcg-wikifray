@@ -38,7 +38,7 @@
           <td>
             <script type='text/javascript'>
               document.write('Hello 1');             
-              addCommentURL(atom:link, atom:title);
+              addCommentURL("google.com", "Google");
             </script>
           </td>
         </tr>
