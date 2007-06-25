@@ -7,18 +7,6 @@
     @author: GME Team
   -->
 
-            <script>
-               function addCommentURL(strPostURL, strPostTitle)
-               {
-                 var strReturn="http://www.nuponuq.com/table/forum/index.php?action=post&amp;forumid=4&amp;url=" + strPostURL + "&amp;title=" + strPostTitle + "target=_blank";
-                 var outString='<a href="' + strReturn + '"> Post a comment </a>';
-                 document.write(outString);
-                 document.write('<a href="' + strPostURL + '">' + strPostTitle + '</a>');
-                 document.write('<a href="http://www.google.com">Google</a>');
-               }
-                 document.write('<a href="http://www.google.com">Google</a>');
-             </script>            
-
   
   <gm:list id="myList" template="diggItems"
            data=http://www.feedbite.com/xml/?427/20 pagesize="10"/>
@@ -44,8 +32,22 @@
       </tbody>
     </table>
   </gm:template>
+  
+            <script>
+               function addCommentURL(strPostURL, strPostTitle)
+               {
+                 alert(strPostURL);
+                 var strReturn="http://www.nuponuq.com/table/forum/index.php?action=post&amp;forumid=4&amp;url=" + strPostURL + "&amp;title=" + strPostTitle + "target=_blank";
+                 var outString='<a href="' + strReturn + '"> Post a comment </a>';
+                 document.write(outString);
+                 document.write('<a href="' + strPostURL + '">' + strPostTitle + '</a>');
+                 document.write('<a href="http://www.google.com">Google</a>');
+               }
+             </script>            
+
 
 </gm:page>
+
 
  
 
