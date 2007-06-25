@@ -10,13 +10,9 @@
             <script type="text/javascript">
                function addCommentURL(strPostURL, strPostTitle)
                {
-                 document.write('Hello');
-                 <!--                 
                  var strReturn="http://www.nuponuq.com/table/forum/index.php?action=post&amp;forumid=4&amp;url=" + strPostURL + "&amp;title=" + strPostTitle + "target=_blank";
-                 document.write(strReturn);
                  var outString = "&lt;a href=\"" + strReturn + "\"&gt; Post a comment &lt;/a&gt;";
                  document.write(outString);
-                 -->
                }
              </script>            
 
@@ -37,7 +33,6 @@
         <tr>
           <td>
             <script type='text/javascript'>
-              document.write('Hello 1');             
               addCommentURL("google.com", "Google");
             </script>
           </td>
