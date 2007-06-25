@@ -40,11 +40,9 @@
         </tr>
         <tr>
           <td>
-            Test1
             <script>
               document.write('Test2');
             </script>
-            Test3
           </td>
         </tr>
       </tbody>
