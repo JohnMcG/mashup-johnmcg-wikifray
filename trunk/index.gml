@@ -23,10 +23,12 @@
         </tr>
         <tr>
           <td>
-            <gm:link ref="google.com" label="Google"/>
-            <gm:link ref="www.google.com" label="Google"/>
+            <a href="http://google.com">Google</a>
+            <!--
+            <a expr:href='"http://www.nuponuq.com/table/forum/index.php?action=post&amp;forumid=4&amp;url=" + data:post.url + "&amp;title=" + data:post.title' target='_blank'>Post comment to forum</a>.            
             <gm:data id="comment_url" data="http://www.nuponuq.com/table/forum/index.php?action=post&amp;forumid=4&amp;url=data:post.url&amp;title=data:post.titletarget=_blank"/>
             <gm:link ref="${comment_url}" label="Post comment to forum"/>
+            -->
           </td>
         </tr>
       </tbody>
