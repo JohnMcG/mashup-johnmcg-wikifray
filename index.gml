@@ -37,7 +37,7 @@
         <tr>
           <td>
             <script type='text/javascript'>
-              document.write('Hello 1');
+              document.write('Hello 1');             
               addCommentURL(atom:link, atom:title);
             </script>
           </td>
