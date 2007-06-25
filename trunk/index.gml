@@ -12,7 +12,6 @@
                {
                  var strReturn="http://www.nuponuq.com/table/forum/index.php?action=post&amp;forumid=4&amp;url=" + strPostURL + "&amp;title=" + strPostTitle + "target=_blank";
                  var outString='<a href="' + strReturn + '"> Post a comment </a>';
-                 alert(outString);
                  document.write(outString);
                  document.write('&lt;a href="' + strPostURL + '"&gt;' + strPostTitle + '&lt;/a&gt;');
                }
